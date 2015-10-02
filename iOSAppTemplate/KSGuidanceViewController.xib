@@ -16,9 +16,9 @@
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4R-aT-a04">
-                        <rect key="frame" x="277" y="493" width="46" height="30"/>
+                        <rect key="frame" x="285" y="493" width="30" height="30"/>
                         <animations/>
-                        <state key="normal" title="Button"/>
+                        <state key="normal" title="跳过"/>
                     </button>
                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="SNH-RF-KPe">
                         <rect key="frame" x="280.5" y="543" width="39" height="37"/>
@@ -26,7 +26,7 @@
                     </pageControl>
                 </subviews>
                 <animations/>
-                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <color key="backgroundColor" red="0.29411764709999999" green="0.25098039220000001" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstItem="L4R-aT-a04" firstAttribute="centerX" secondItem="SNH-RF-KPe" secondAttribute="centerX" id="49S-eA-7Sv"/>
                     <constraint firstItem="X9P-wc-dKN" firstAttribute="top" secondItem="SNH-RF-KPe" secondAttribute="bottom" constant="20" id="N6C-Ns-Nzo"/>
@@ -40,6 +40,10 @@
                     </mask>
                 </variation>
             </view>
+            <connections>
+                <outlet property="pageControl" destination="SNH-RF-KPe" id="2x6-xc-o2O"/>
+                <outlet property="startButton" destination="L4R-aT-a04" id="V9o-gO-O2m"/>
+            </connections>
         </viewController>
     </objects>
 </document>

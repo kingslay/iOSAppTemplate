@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import KSSwiftExtension
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -21,16 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let userDefaults = NSUserDefaults.standardUserDefaults()
         let appVersion = userDefaults.stringForKey("appVersion")
-        
-        
         // 如果appVersion为nil说明是第一次启动；如果appVersion不等于currentAppVersion说明是更新了
         if appVersion == nil || appVersion != currentAppVersion {
-            
             userDefaults.setValue(currentAppVersion, forKey: "appVersion")
-            let storyboard = UIStoryboard(name: "KSGuidanceViewController", bundle: nil)
-            
-            let guidanceViewController =  KSGuidanceViewController
-            self.window!.rootViewController = guidanceViewController
+            self.window!.rootViewController = KSGuidanceViewController.loadXib()
         }else{
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             self.window!.rootViewController = storyboard.instantiateInitialViewController()

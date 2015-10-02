@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import RxCocoa
 class KSGuidanceViewController: UIViewController {
     var scrollView:  UIScrollView!
     
@@ -45,8 +45,13 @@ class KSGuidanceViewController: UIViewController {
         startButton.alpha = 0.0
         
         // 将这两个控件拿到视图的最上面
+        pageControl.numberOfPages = numOfPages
         self.view.bringSubviewToFront(pageControl)
         self.view.bringSubviewToFront(startButton)
+        startButton.rx_tap.subscribeNext {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            UIApplication.sharedApplication().keyWindow!.rootViewController = storyboard.instantiateInitialViewController()
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -59,7 +64,7 @@ class KSGuidanceViewController: UIViewController {
 extension KSGuidanceViewController: UIScrollViewDelegate {
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-        var offset = scrollView.contentOffset
+        let offset = scrollView.contentOffset
         // 随着滑动改变pageControl的状态
         pageControl.currentPage = Int(offset.x / view.bounds.width)
         // 因为currentPage是从0开始，所以numOfPages减1
