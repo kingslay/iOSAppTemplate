@@ -9,14 +9,11 @@
 /* Begin PBXBuildFile section */
 		3C1182691BBCD60A00D96BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1182681BBCD60A00D96BB9 /* Assets.xcassets */; };
 		3C1182771BBCD60A00D96BB9 /* iOSAppTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1182761BBCD60A00D96BB9 /* iOSAppTemplateTests.swift */; };
-		3CBC20F61BBE572A0007DC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC20EC1BBE572A0007DC65 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		3CBC20F91BBE572A0007DC65 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC20F21BBE572A0007DC65 /* FirstViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		3CBC20FA1BBE572A0007DC65 /* KSGuidanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC20F31BBE572A0007DC65 /* KSGuidanceViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		3CBC20FB1BBE572A0007DC65 /* KSGuidanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC20F41BBE572A0007DC65 /* KSGuidanceViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		3CBC20FC1BBE572A0007DC65 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC20F51BBE572A0007DC65 /* SecondViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		3CBC20FF1BBE57740007DC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC20FD1BBE57740007DC65 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		3CBC21001BBE57740007DC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC20FE1BBE57740007DC65 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		4F603B1069BC3C897307F527 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA4BCD56BFC84EA6A057446 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CB89F7A21BE7072800FD21FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89F79E1BE7072800FD21FD /* AppDelegate.swift */; };
+		CB89F7A31BE7072800FD21FD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89F79F1BE7072800FD21FD /* FirstViewController.swift */; };
+		CB89F7A41BE7072800FD21FD /* KSGuidanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89F7A01BE7072800FD21FD /* KSGuidanceViewController.swift */; };
+		CB89F7A51BE7072800FD21FD /* KSGuidanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB89F7A11BE7072800FD21FD /* KSGuidanceViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +33,13 @@
 		3C1182721BBCD60A00D96BB9 /* iOSAppTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1182761BBCD60A00D96BB9 /* iOSAppTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppTemplateTests.swift; sourceTree = "<group>"; };
 		3C1182781BBCD60A00D96BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CBC20EC1BBE572A0007DC65 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CBC20F21BBE572A0007DC65 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3CBC20F31BBE572A0007DC65 /* KSGuidanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSGuidanceViewController.swift; sourceTree = "<group>"; };
-		3CBC20F41BBE572A0007DC65 /* KSGuidanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSGuidanceViewController.xib; sourceTree = "<group>"; };
-		3CBC20F51BBE572A0007DC65 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		3CBC20FD1BBE57740007DC65 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3CBC20FE1BBE57740007DC65 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6D64ADFF1666134999219855 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ABA4BCD56BFC84EA6A057446 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB89F79D1BE7072800FD21FD /* iOSAppTemplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSAppTemplate-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB89F79E1BE7072800FD21FD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB89F79F1BE7072800FD21FD /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CB89F7A01BE7072800FD21FD /* KSGuidanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSGuidanceViewController.swift; sourceTree = "<group>"; };
+		CB89F7A11BE7072800FD21FD /* KSGuidanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSGuidanceViewController.xib; sourceTree = "<group>"; };
 		E46E7BDAFEAD62E802663503 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +82,8 @@
 		3C1182531BBCD60A00D96BB9 = {
 			isa = PBXGroup;
 			children = (
-				3C11825E1BBCD60A00D96BB9 /* Source */,
+				CB89F7941BE706EC00FD21FD /* Source */,
+				CB89F79C1BE706FF00FD21FD /* Resource */,
 				3C1182811BBCD8C100D96BB9 /* Supporting Files */,
 				3C1182751BBCD60A00D96BB9 /* iOSAppTemplateTests */,
 				3C11825D1BBCD60A00D96BB9 /* Products */,
@@ -105,21 +101,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C11825E1BBCD60A00D96BB9 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				3CBC20EC1BBE572A0007DC65 /* AppDelegate.swift */,
-				3CBC20F21BBE572A0007DC65 /* FirstViewController.swift */,
-				3CBC20F31BBE572A0007DC65 /* KSGuidanceViewController.swift */,
-				3CBC20F41BBE572A0007DC65 /* KSGuidanceViewController.xib */,
-				3CBC20F51BBE572A0007DC65 /* SecondViewController.swift */,
-				3CBC20FD1BBE57740007DC65 /* LaunchScreen.storyboard */,
-				3CBC20FE1BBE57740007DC65 /* Main.storyboard */,
-			);
-			name = Source;
-			path = iOSAppTemplate;
-			sourceTree = "<group>";
-		};
 		3C1182751BBCD60A00D96BB9 /* iOSAppTemplateTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,10 +113,85 @@
 		3C1182811BBCD8C100D96BB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB89F79E1BE7072800FD21FD /* AppDelegate.swift */,
+				CB89F79F1BE7072800FD21FD /* FirstViewController.swift */,
+				CB89F7A01BE7072800FD21FD /* KSGuidanceViewController.swift */,
+				CB89F7A11BE7072800FD21FD /* KSGuidanceViewController.xib */,
 				3C1182681BBCD60A00D96BB9 /* Assets.xcassets */,
 				3C11826D1BBCD60A00D96BB9 /* Info.plist */,
+				CB89F79D1BE7072800FD21FD /* iOSAppTemplate-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB89F7941BE706EC00FD21FD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CB89F7951BE706EC00FD21FD /* Config */,
+				CB89F7961BE706EC00FD21FD /* Model */,
+				CB89F7971BE706EC00FD21FD /* Utils */,
+				CB89F7981BE706EC00FD21FD /* View */,
+				CB89F79A1BE706EC00FD21FD /* ViewControll */,
+				CB89F79B1BE706EC00FD21FD /* ViewModel */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CB89F7951BE706EC00FD21FD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CB89F7961BE706EC00FD21FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB89F7971BE706EC00FD21FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CB89F7981BE706EC00FD21FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB89F7991BE706EC00FD21FD /* ViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB89F7991BE706EC00FD21FD /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		CB89F79A1BE706EC00FD21FD /* ViewControll */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControll;
+			sourceTree = "<group>";
+		};
+		CB89F79B1BE706EC00FD21FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB89F79C1BE706FF00FD21FD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +242,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = KS;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = king;
 				TargetAttributes = {
@@ -222,10 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CBC20FF1BBE57740007DC65 /* LaunchScreen.storyboard in Resources */,
-				3CBC20FB1BBE572A0007DC65 /* KSGuidanceViewController.xib in Resources */,
+				CB89F7A51BE7072800FD21FD /* KSGuidanceViewController.xib in Resources */,
 				3C1182691BBCD60A00D96BB9 /* Assets.xcassets in Resources */,
-				3CBC21001BBE57740007DC65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CBC20F91BBE572A0007DC65 /* FirstViewController.swift in Sources */,
-				3CBC20F61BBE572A0007DC65 /* AppDelegate.swift in Sources */,
-				3CBC20FA1BBE572A0007DC65 /* KSGuidanceViewController.swift in Sources */,
-				3CBC20FC1BBE572A0007DC65 /* SecondViewController.swift in Sources */,
+				CB89F7A21BE7072800FD21FD /* AppDelegate.swift in Sources */,
+				CB89F7A41BE7072800FD21FD /* KSGuidanceViewController.swift in Sources */,
+				CB89F7A31BE7072800FD21FD /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +457,13 @@
 			baseConfigurationReference = 6D64ADFF1666134999219855 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iOSAppTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = king.iOSAppTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSAppTemplate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -415,10 +472,12 @@
 			baseConfigurationReference = E46E7BDAFEAD62E802663503 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iOSAppTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = king.iOSAppTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSAppTemplate-Bridging-Header.h";
 			};
 			name = Release;
 		};
